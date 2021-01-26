@@ -21591,7 +21591,7 @@ class TableRenderer {
 
   createEnum(property, depth, rmBorderBottom) {
     depth++;
-    return '' + '<td colspan="2" class="depth' + depth + ' innerTable"' + rmBorderBottom + '>' + '<table class="enumTable">' + '<tr>' + '<td class="enumTd"><b>' + property.data.dsRange + '</b></td>' + '<td class="enumTd">' + property.data.dsDescription + '</td>' + '</tr>' + (property.data.enuMembers ? this.genHTML_enuMembers(property.data.enuMembers) : '') + '</table>' + '</td>';
+    return '' + '<td colspan="2" class="depth' + depth + ' innerTable"' + rmBorderBottom + '>' + '<table class="table enumTable">' + '<tr>' + '<td class="enumTd"><b>' + property.data.dsRange + '</b></td>' + '<td class="enumTd">' + property.data.dsDescription + '</td>' + '</tr>' + (property.data.enuMembers ? this.genHTML_enuMembers(property.data.enuMembers) : '') + '</table>' + '</td>';
   }
 
   genHTML_enuMembers(enuMemberArray) {

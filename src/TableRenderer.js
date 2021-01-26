@@ -159,7 +159,7 @@ class TableRenderer {
         depth++;
         return '' +
             '<td colspan="2" class="depth' + depth + ' innerTable"' + rmBorderBottom + '>' +
-            '<table class="enumTable">' +
+            '<table class="table enumTable">' +
             '<tr>' +
             '<td class="enumTd"><b>' + property.data.dsRange + '</b></td>' +
             '<td class="enumTd">' + property.data.dsDescription + '</td>' +

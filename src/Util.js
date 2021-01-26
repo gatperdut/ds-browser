@@ -271,7 +271,7 @@ class Util {
             trs = [trs];
         }
         return '' +
-            '<table class="definition-table table"' + this.createHtmlAttr(tableAttr) + '>' +
+            '<table class="table definition-table"' + this.createHtmlAttr(tableAttr) + '>' +
             '<thead>' +
             '<tr>' +
             ths.map((th) => {
